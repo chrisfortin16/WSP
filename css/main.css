@@ -3,12 +3,20 @@
 WSP COMPONENT LIBRARY STYLESHEET
 ================================================================================ */
 body{
-	background:#24299C;
+	background:#ffffff;
+}
+#wrap{
+	width:960px;
+	margin:0 auto;
 }
 
 
 /* HEADER SPECIFIC ======================================== */
-
+header{
+	background:url(../images/header_img.jpg) no-repeat center;
+	margin:0 auto;
+	width:960px;
+}
 
 
 /* ABOUT SPECIFIC ======================================== */
