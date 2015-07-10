@@ -14,8 +14,12 @@ body{
 /* HEADER SPECIFIC ======================================== */
 header{
 	background:url(../images/header_img.jpg) no-repeat center;
+	height:150px;
 	margin:0 auto;
 	width:960px;
+}
+header h1{
+	text-indent:-9999px;
 }
 
 
