@@ -21,8 +21,9 @@ header{
 header h1{
 	text-indent:-9999px;
 }
-
-
 /* ABOUT SPECIFIC ======================================== */
+.purp{
+	color:#561a89;
+}
 
 /* COMPONENTS SPECIFIC ======================================== */
