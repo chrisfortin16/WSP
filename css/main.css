@@ -71,7 +71,9 @@ h4{
 }
 p{
 	padding:5px 30px 20px 30px;
-	line-height:16px;
+	line-height:20px;
+	font-size:16px;
+	font-weight:light;
 	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
 	color:#363636;
 }
