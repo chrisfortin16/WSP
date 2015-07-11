@@ -32,6 +32,10 @@ h2{
 	font-weight:bold;
 	color:#363636;
 }
+about_img{
+	float:left;
+	padding:0 15px 15px 20px;
+}
 .about_p{
 	float:right;
 	padding:10px;
