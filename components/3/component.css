@@ -6,3 +6,72 @@ COMPONENT STYLESHEET
 /* HEADER ======================================== */
 
 /* HEADER ======================================== */
+body{
+	background:#3A3A3A;
+}
+#cta{
+	width:960px;
+	margin:0 auto;
+	background:#223908;
+	height:600px;
+}
+h2{
+	padding-top:200px;
+	text-align:center;
+	line-height:80px;
+	font-size:48px;
+	font-weight:600;
+	font-family:sans-serif;
+	color:#ffffff;
+}
+p{
+	text-align:center;
+	padding-bottom:20px;
+	color:#FFFFFF;
+}
+ul{
+	width:960px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:10px;
+}
+li {
+	display:inline-block;
+}
+a {
+	display:block;
+	text-indent:-9999px;
+	padding-top:10px;
+	height:22px;
+	width:22px;
+}
+ul a[href^="pinterest"]{
+	background:url(../../images/pintrest_1.jpg) no-repeat center;
+}
+ul a[href^="facebook"]{
+	background:url(../../images/facebook_1.jpg) no-repeat center;
+}
+ul a[href^="instagram"]{
+	background:url(../../images/instagram_1.jpg) no-repeat center;
+}
+#pagination{
+	margin-top:100px;
+}
+#pagination li:nth-of-type(1){
+	background:#909090;
+}
+#pagination a{
+	padding-top:0;
+}
+#pagination li:nth-of-type(2){
+	background:#ffffff;
+	border-radius:50%;
+	width:50px;
+	height:50px;
+	margin:0 auto;
+	line-height:50px;
+}
+#pagination li:nth-of-type(3){
+	background:#909090;
+}
+

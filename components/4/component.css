@@ -4,5 +4,66 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+body{
+	background:#4DA24C;
+}
+section{
+	width:960px;
+	height:400px;
+	margin:0 auto;
+	padding:0 30px;
+	background:#FFFFFF;
+	background:url(../../images/ctaBackground.jpg) center no-repeat;
+}
+h2{
+	font-size:30px;
+	font-weight:200;
+	font-family:sans-serif;
+	padding-right:92px;
+	padding-top:120px;
+	clear:both;
+	position: relative;
+	float:right;
+	text-align:left;
+	color:#FFFFFF;
+}
+h1{
+	font-size:42px;
+	font-family:sans-serif;
+	clear:both;
+	float:right;
+	text-align:left;
+	padding-right:70px;
+	text-transform:uppercase;
+	color:#FFFFFF;
+}
+a{
+	clear:both;
+	font-family:sans-serif;
+	float:right;
+	margin-right:277px;
+	margin-top:20px;
+	padding:10px;
+	background:#2A2A2A;
+	color:#ffffff;
+}
+img{
+	display:inline-block;
+	background-position:bottom;
+	background:#2a2a2a;
+	height:20px;
+	width:20px;
+	border-radius:50%;
+}
+#pageNumber{
+	padding-top:50px;
+	padding-right:30px;
+	float:right;
+	clear:both;
+}
+#pageNumber img:nth-of-type(1){
+	background-color:#7CD448;
+}
+
 
 /* HEADER ======================================== */

@@ -4,5 +4,89 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+html{
+	font-size: 62.5%;
+}
+body{
+	font: 400 1.6em/1.5 sans-serif;
+	background:#eaeaea;
+	color:#777777;
+}
+section{
+	margin:0 auto;
+	max-width:1000px;
+	text-align:center;
+	padding:2rem;
+}
+h2{
+	text-transform:uppercase;
+	font-weight:600;
+	font-size:2.4rem;
+}
+h3{
+	font-size: 1.8rem;
+	color:#555555;
+	padding-top: 2rem;
+}
 
-/* HEADER ======================================== */
+p{
+	margin-bottom:1rem;
+}
+
+img{
+	width:10rem;
+	height:10rem;
+	background:#C2C2C2;
+	border-radius:50%;
+}
+/* TEAM MEMBERs ======================================== */
+article{
+	width:calc(25% - 4rem);
+	float:left;
+	margin:0 2rem;
+	background:#fff;
+	padding:1rem;
+}
+li{
+	display:inline-block;
+}
+li a{
+	display: block;
+	width:2rem;
+	height:2rem;
+	background:#cccccc;
+	text-indent:-9999px;
+	margin-top:2rem;
+}
+li a[href*='facebook'] {
+	background:url(images/facebook.jpg) no-repeat center;
+	background-size:2rem;
+}
+li a[href*='twitter'] {
+	background:url(images/twitter.jpg) no-repeat center;
+}
+li a[href*='Google'] {
+	background:url(images/google.jpg) no-repeat center;
+}
+p:last-child a{
+	position:relative;
+	display:inline-block;
+	width:2rem;
+	height:2rem;
+	background:#333333;
+	border-radius:50%;
+	text-indent:-9999px;
+}
+p:last-child a::after {
+	content: 'hello';
+	display: block;
+	width:0;
+	height:0;
+	border-top:solid 0.5rem transparent;
+	border-bottom:solid 0.5rem transparent;;
+	border-left:solid 1rem white;
+	position: absolute;
+	top: 0.5rem;
+	left: 0.75rem;
+	
+	}

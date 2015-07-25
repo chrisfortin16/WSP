@@ -4,5 +4,45 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
-
+section{
+	width:960px;
+	margin:0 auto;
+}
+h1{
+	display:inline;
+	font-family:sans-serif;
+	font-size:24px;
+	color:#818181;
+	width:300px;
+	float:left;
+	padding-top:30px;
+}
+.lefty{
+	float:left;
+}
+h2{
+	font-family:sans-serif;
+	font-size:12px;
+	line-height:30px;
+	color:#AF3E40;
+	width:300px;
+}
+p{
+	color:#818181;
+	line-height:20px;
+	font-family:sans-serif;
+	font-size:12px;
+}
+p:nth-of-type(1){
+	float:right;
+	width:300px;
+	padding-top:30px;
+	margin-right:30px;
+}
+p:nth-of-type(2){
+	float:right;
+	width:300px;
+	padding-top:30px;
+	margin-right:30px;
+}
 /* HEADER ======================================== */

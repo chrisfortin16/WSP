@@ -4,5 +4,49 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
-
+footer{
+	max-width:960px;
+	margin:0 auto;
+}
+article{
+	width:calc(25% - 40px);
+	float:left;
+	margin:30px 20px;
+	background:#fff;
+}
+h2{
+	font-size:30px;
+	font-weight:bold;
+	font-family:sans-serif;
+}
+h2::after{
+	content:"";
+	display:block;
+	border-bottom:solid 1px #B9B9B9;
+	margin:10px 0;
+}
+p{
+	font-family:sans-serif;
+	font-size:12px;
+	line-height:18px;
+	color:#B9B9B9;
+}
+a{
+	color:#B9B9B9;
+}
+#tag{
+	display:inline;
+	border:solid 1px #b9b9b9;
+	padding:10px;
+	line-height:40px;
+}
+article:nth-last-of-type(1){
+	margin-top:40px;
+}
+#last{
+	float:left;
+	margin-left:20px;
+	margin-top:240px;
+	position:absolute;
+}
 /* HEADER ======================================== */
