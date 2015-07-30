@@ -4,5 +4,67 @@ COMPONENT STYLESHEET
 ================================================================================ */
 
 /* HEADER ======================================== */
+section{
+	width:960px;
+	margin:0 auto;
+	font-family:sans-serif;
+}
+img{
+	width:960px;
+	height:auto;
+}
+strong{
+	font-weight:bold;
+	font-size:16px;
+	color:#000000;
+}
+p{
+	margin:20px 0 10px 0;
+	font-size:12px;
+	color:#515151;
+	line-height:18px
+}
+li{
+	color:#A0A0A0;
+	font-size:12px;
+	line-height:18px;
+	padding:0 0 0 30px;
+}
+article{
+	width:calc(100%/3 - 5px);
+	display:inline-block;
+}
+article:nth-of-type(4){
+	width:100%;
+	display:block;
+}
+article:nth-of-type(5){
+	color:red;
+	display:block;
+}
+a{
+	color:#4EA556;
+}
+h6{
+	font-style:italic;
+	color:#A0A0A0;
+	font-size:12px;
+	line-height:18px;
+	padding:0 0 0 30px;
+}
+.lite{
+	color:#B8B8B8;
+	font-style:italic;
+}
 
+article:last-of-type{
+	width:100%;
+}
+form input{
+	width:calc(100%/3 - 5px);
+	border:solid 2px #B8B8B8;
+}
+form p{
+	width:calc(100%/3 - 5px;
+}
 /* HEADER ======================================== */
